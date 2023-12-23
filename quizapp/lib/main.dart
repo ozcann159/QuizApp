@@ -53,11 +53,13 @@ class QuestionsScreen extends StatefulWidget {
 }
 
 class _QuestionsState extends State<QuestionsScreen> {
-  String question = "Soru 1";
+  List <String> question = [
+
+  ];
 
   void changeQuestion() {
     setState(() {
-      question = "Soru 2";
+      question = question;
     });
   }
 
@@ -69,12 +71,13 @@ class _QuestionsState extends State<QuestionsScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(question),
-            TextButton.icon(
-                onPressed: () {
-                  changeQuestion();
-                },
-                icon: const Icon(Icons.account_balance_sharp),
-                label: const Text("Cevap"))
+            ...answers.map((answer) => ElevatedButton(
+                onPressed: () {},
+                child: Text(
+                  answer,
+                  textAlign: TextAlign.center,
+                  style: TextStyle(color: Colors.white),
+                )))
           ],
         ),
       ),
