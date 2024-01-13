@@ -25,7 +25,7 @@ class NextButton extends StatelessWidget {
           child: Center(
             child: Text(
               label,
-              style: TextStyle(
+              style: const TextStyle(
                   letterSpacing: 2,
                   fontSize: 25,
                   fontWeight: FontWeight.w400,

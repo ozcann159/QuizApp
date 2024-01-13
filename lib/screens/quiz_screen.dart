@@ -68,7 +68,7 @@ class _QuizScreenState extends State<QuizScreen> {
           children: [
             Text(
               question.question,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 20,
                 color: Colors.white,
               ),

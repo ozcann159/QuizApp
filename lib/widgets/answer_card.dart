@@ -23,11 +23,11 @@ class AnswerCard extends StatelessWidget {
         selectedAnswerIndex != correctAnswerIndex && isSelected;
 
     return Padding(
-      padding: EdgeInsets.symmetric(vertical: 10.0),
+      padding: const EdgeInsets.symmetric(vertical: 10.0),
       child: selectedAnswerIndex != null
           ? Container(
               height: 70,
-              padding: EdgeInsets.all(16.0),
+              padding: const EdgeInsets.all(16.0),
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(25),
@@ -48,7 +48,7 @@ class AnswerCard extends StatelessWidget {
                       scrollDirection: Axis.horizontal,
                       child: Text(
                         question,
-                        style: TextStyle(
+                        style: const TextStyle(
                           fontSize: 16,
                         ),
                       ),

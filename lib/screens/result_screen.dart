@@ -56,13 +56,13 @@ class ResultScreen extends StatelessWidget {
                     ),
                     Text(
                       '${(score / 10 * 100).round()}%',
-                      style: TextStyle(fontSize: 30, color: Colors.white),
+                      style: const TextStyle(fontSize: 30, color: Colors.white),
                     ),
                   ],
                 ),
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             NextButton(
