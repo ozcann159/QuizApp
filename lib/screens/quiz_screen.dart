@@ -56,11 +56,6 @@ class _QuizScreenState extends State<QuizScreen> {
 
     return Scaffold(
       backgroundColor: Colors.deepPurple,
-      appBar: AppBar(
-        backgroundColor: Colors.deepPurpleAccent,
-        title: Text("Quiz App"),
-        centerTitle: true,
-      ),
       body: Padding(
         padding: EdgeInsets.all(40.0),
         child: Column(
@@ -69,7 +64,7 @@ class _QuizScreenState extends State<QuizScreen> {
             Text(
               question.question,
               style: const TextStyle(
-                fontSize: 20,
+                fontSize: 30,
                 color: Colors.white,
               ),
               textAlign: TextAlign.center,

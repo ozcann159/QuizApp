@@ -11,7 +11,7 @@ class QuestionModal {
 
 List<QuestionModal> questions = [
   QuestionModal(
-      question: 'Soru 1: Flutter nedir?',
+      question: 'Flutter nedir?',
       options: [
         'Bir programlama dili',
         'Bir yazılım geliştirme framework\'ü',
@@ -20,12 +20,12 @@ List<QuestionModal> questions = [
       ],
       correctAnswerIndex: 0),
   QuestionModal(
-    question: 'Soru 2: Flutter hangi programlama dili üzerine inşa edilmiştir?',
+    question: 'Flutter hangi programlama dili üzerine inşa edilmiştir?',
     options: ['Java', 'Dart', 'Python', 'C#'],
     correctAnswerIndex: 1,
   ),
   QuestionModal(
-      question: 'Soru 3: Flutterda widget nedir?',
+      question: 'Flutterda widget nedir?',
       options: [
         'Yatay bir çizgi',
         'Kullanıcı arayüz elemanı',
@@ -34,7 +34,7 @@ List<QuestionModal> questions = [
       ],
       correctAnswerIndex: 1),
   QuestionModal(
-      question: 'Soru 4: Flutterda hot reload özelliği ne işe yarar?',
+      question: 'Flutterda hot reload özelliği ne işe yarar?',
       options: [
         'Uygulamayı soğuk başlatır',
         'Kodu anında derler günceller',
@@ -44,7 +44,7 @@ List<QuestionModal> questions = [
       correctAnswerIndex: 1),
   QuestionModal(
       question:
-          'Soru 5: Flutter da hangi sınıf, uygulama içinde sayfalar arası geçişleri sağlar?',
+          'Flutter da hangi sınıf, uygulama içinde sayfalar arası geçişleri sağlar?',
       options: [
         'NavigationService',
         'PageController',
@@ -53,7 +53,7 @@ List<QuestionModal> questions = [
       ],
       correctAnswerIndex: 3),
   QuestionModal(
-      question: 'Soru 6:Flutter\'da state yönetimi nasıl yapılır? ',
+      question: 'Flutter\'da state yönetimi nasıl yapılır? ',
       options: [
         'Provider kullanarak ',
         'Redux ile',
@@ -62,7 +62,7 @@ List<QuestionModal> questions = [
       ],
       correctAnswerIndex: 2),
   QuestionModal(
-      question: 'Soru 7: Flutter da "BuildContext" nedir ve neden önemlidir?',
+      question: 'Flutter da "BuildContext" nedir ve neden önemlidir?',
       options: [
         ' Widgetların birbiriyle iletişimi.',
         ' Widgetların hiyerarşisini temsil eder.',
@@ -72,7 +72,7 @@ List<QuestionModal> questions = [
       correctAnswerIndex: 2),
   QuestionModal(
       question:
-          'Soru 8: Flutterda lib klasörü altında bulunan kod dosyasının uzantısı aşağıdakilerden hangisidir?',
+          'Flutterda lib klasörü altında bulunan kod dosyasının uzantısı aşağıdakilerden hangisidir?',
       options: [
         '.yaml',
         '.flutter',

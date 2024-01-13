@@ -19,9 +19,7 @@ class NextButton extends StatelessWidget {
         height: 50,
         width: double.infinity,
         child: Card(
-          color: onPressed != null
-              ? Colors.orange.shade600
-              : Colors.orange.shade600,
+          color: onPressed != null ? Colors.orange : Colors.orange,
           child: Center(
             child: Text(
               label,
@@ -29,7 +27,7 @@ class NextButton extends StatelessWidget {
                   letterSpacing: 2,
                   fontSize: 25,
                   fontWeight: FontWeight.w400,
-                  color: Colors.black),
+                  color: Colors.white),
             ),
           ),
         ),
